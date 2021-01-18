@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=BabyBirths
+comment1.params=fr
+comment1.target=void\ totalBirths(edu.duke.FileResource)
+comment1.text=public\ void\ printNames\ ()\ {\n\ \ \ \ \ \ \ \ FileResource\ fr\ \=\ new\ FileResource();\n\ \ \ \ \ \ \ \ for\ (CSVRecord\ rec\ \:\ fr.getCSVParser(false))\ {\n\ \ \ \ \ \ \ \ \ \ \ \ int\ numBorn\ \=\ Integer.parseInt(rec.get(2));\n\ \ \ \ \ \ \ \ \ \ \ \ if\ (numBorn\ <\=\ 100)\ {\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ System.out.println("Name\ "\ +\ rec.get(0)\ +\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ "\ Gender\ "\ +\ rec.get(1)\ +\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ "\ Num\ Born\ "\ +\ rec.get(2));\n\ \ \ \ \ \ \ \ \ \ \ \ }\n\ \ \ \ \ \ \ \ }\n}
+comment2.params=year\ name\ g
+comment2.target=int\ getRank(int,\ java.lang.String,\ java.lang.String)
+comment3.params=year\ rank\ g
+comment3.target=java.lang.String\ getName(int,\ int,\ java.lang.String)
+comment4.params=name\ year\ nYear\ g
+comment4.target=void\ whatIsNameInYear(java.lang.String,\ int,\ int,\ java.lang.String)
+comment5.params=name\ g
+comment5.target=int\ yearOfHighestRank(java.lang.String,\ java.lang.String)
+comment6.params=name\ g
+comment6.target=double\ getAverageRank(java.lang.String,\ java.lang.String)
+comment7.params=name\ g\ year
+comment7.target=int\ getTotalBirthsRankedHigher(java.lang.String,\ java.lang.String,\ int)
+comment8.params=
+comment8.target=void\ test()
+numComments=9
